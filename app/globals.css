@@ -6,3 +6,8 @@
   font-family: Optimus;
   src: url("/Optimus.otf") format("opentype");
 }
+
+@font-face {
+  font-family: Adventure;
+  src: url("/fonts/Adventure.otf") format("opentype");
+}
