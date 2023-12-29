@@ -9,11 +9,8 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className='font-primary'>
-      {/* <div className='bg-fuchsia-400 h-[150vh] w-full'></div> */}
-      {/* <About /> */}
       <Hero />
-      <div id='about' className='bg-white h-[100vh] w-full text-center text-5xl pt-20'>About</div>
-      <div className='bg-white h-[100vh] w-full text-center text-5xl'>Mission</div>
+      <About />
       <Projects />
       {/* <Test /> */}
       {/* <ResizableDiv /> */}

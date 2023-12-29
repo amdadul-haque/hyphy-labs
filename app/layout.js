@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" style={{ scrollBehavior: 'smooth' }}>
-      <body className="font-primary">
+      <body className="font-tertiary">
         <Navbar />
         <Providers>{children}</Providers>
         <ToastContainer position="top-right" />

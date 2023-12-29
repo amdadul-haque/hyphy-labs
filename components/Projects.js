@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react'
 import { useParallax } from 'react-scroll-parallax';
 import { motion } from 'framer-motion';
+import About from './About';
 
 const Projects = () => {
   const card1 = useParallax({
@@ -16,7 +17,7 @@ const Projects = () => {
   // });
   return (
     <>
-      <div className='w-full bg-white h-screen min-h-[90vh] relative flex items-center py-10 px-5 border-[10px] border-red-500'>
+      <div className='w-full bg-white h-screen min-h-[90vh] flex items-center py-10 px-5'>
         <div
           className='w-full bg-red max-w-[1320px] mx-auto flex flex-col md:flex-row justify-between items-center md:items-stretch gap-6'
           ref={card1.ref}

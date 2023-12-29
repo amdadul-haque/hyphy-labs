@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily: {
         primary: "Optimus",
-        seconday: "Adventure"
+        seconday: "Adventure",
+        tertiary: "AlteHaasGrotesk"
       },
     },
   },

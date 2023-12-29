@@ -4,10 +4,15 @@
 
 @font-face {
   font-family: Optimus;
-  src: url("/Optimus.otf") format("opentype");
+  src: url("/fonts/Optimus.otf") format("opentype");
 }
 
 @font-face {
   font-family: Adventure;
   src: url("/fonts/Adventure.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AlteHaasGrotesk;
+  src: url("/fonts/AlteHaasGroteskRegular.otf") format("opentype");
 }

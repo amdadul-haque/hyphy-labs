@@ -13,8 +13,8 @@ const Navbar = () => {
           <Link href='/'>
             <Image src='/x-twitter.svg' width={35} height={40} />
           </Link>
-          <Link href='/#about' className='text-xl font-bold'> About </Link>
-          <Link href='/contact' className='text-xl font-bold'> Contact </Link>
+          <Link href='/#about' className='text-xl font-bold border-b-2 border-transparent hover:border-black transition-all duration-300'> About </Link>
+          <Link href='/contact' className='text-xl font-bold border-b-2 border-transparent hover:border-black transition-all duration-300'> Contact </Link>
         </div>
       </div>
     </div>
