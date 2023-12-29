@@ -8,9 +8,7 @@ const About = () => {
       <div className='w-full min-h-screen'>
       </div>
       <motion.div id='about' className='w-full h-screen min-h-screen bg-white relative py-10'
-        initial={{ opacity: 0, y: 200, scale: 0.2 }}
-        whileInView={{ opacity: 1, y: 0, scale: 1 }}
-        transition={{ duration: .5 }}
+        
       >
         <div className='w-full h-full max-w-[1320px] mx-auto flex flex-col justify-center'>
           <h2 className='text-4xl'>About</h2>
