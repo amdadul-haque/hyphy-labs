@@ -26,8 +26,8 @@ const Projects = () => {
             <motion.div
               // ref={card1.ref}
               className='w-full max-w-[400px] rounded-[40px] bg-black flex flex-col justify-center items-center py-10 hover:scale-150 transition-all hover:cursor-pointer scale-50'
-              initial={{ opacity: 0, x: -200, y: 200, scale: 0.7 }}
-              whileInView={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+              initial={{ y: 100 }}
+              whileInView={{ x: 0, y: 0 }}
               transition={{ duration: .5 }}
             >
               <Image src='/card1.jpg' width={300} height={400} />
@@ -39,9 +39,9 @@ const Projects = () => {
               // ref={card2.ref}
               className='w-full max-w-[400px] rounded-[40px] relative hover:scale-150 transition-all h-full'
 
-              initial={{ opacity: 0, y: -200, scale: 0.7 }}
-              whileInView={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 1.5 }}
+              initial={{ y: 100 }}
+              whileInView={{ x: 0, y: 0 }}
+              transition={{ duration: .5 }}
             >
               <img src='/card2.gif' layout='responsive' className='rounded-[50px] w-full object-cover h-full' />
               <div className='w-full absolute py-8 bg-black opacity-80 top-[50%] left-0 translate-y-[-50%]'>
@@ -56,8 +56,8 @@ const Projects = () => {
             <motion.div
               // ref={card3.ref}
               className='w-full max-w-[400px] rounded-[40px] bg-black flex justify-center items-center py-10 h-full'
-              initial={{ opacity: 0, x: 200, y: 200, scale: 0.7 }}
-              whileInView={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+              initial={{ y: 100 }}
+              whileInView={{ x: 0, y: 0 }}
               transition={{ duration: .5 }}
             >
               <h2 className='uppercase text-5xl font-seconday text-white text-center leading-tight'>

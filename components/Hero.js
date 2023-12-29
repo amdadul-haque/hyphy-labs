@@ -33,7 +33,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: .5 }}
           >
-            <h2 className='text-2xl sm:text-7xl font-bold max-w-[700px] text-left'>Connecting the World Through Innovative Artistry</h2>
+            <h2 className='text-2xl sm:text-[102px] font-bold max-w-[1000px] text-left leading-none'>Connecting the World Through Innovative Artistry</h2>
           </motion.div>
         </div>
       </div >
